@@ -1,0 +1,122 @@
+body {
+	background-color: #334155;
+	padding: 40px;
+	margin-bottom: 20px;
+}
+
+form {
+	width: 90%;
+	height: 500px;
+	background-color: #FFFFFF;
+	display: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding-top: 10px;
+	margin: 30px;
+	border-radius: 20px;
+	overflow: hidden;
+	box-shadow: 10px 30px rgba(0,0,0,.15);
+	max-width: 380px;
+	
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 48px;
+	font-family: "Times New Roman", serif;
+	margin: 50px 20px;
+	color: #1F2937;
+}
+
+input {
+	height: 30px;
+	width: 250px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin: 10px 25px;
+	background-color: white;
+	border-color: gray;
+	border-radius: 10px;
+	
+}
+
+input:focus{
+	border:2px solid #2563EB;
+	outline:none;
+}
+
+.pass { 
+	color: #2563EB;
+	text-decoration: none;
+	
+}
+
+.pass:hover{
+	text-decoration: underline;
+	
+}
+
+.forgeter {
+	margin: 30px 30px;
+}
+
+.botton{
+
+	background-color: #2563EB;
+	color: white;
+	border-radius: 30px;
+	padding: 10px 40px;
+}
+
+.botton:hover {
+	transform: scale(1.5);
+	background-color: #1D4ED8;
+	transition: 1s;
+}
+
+.account{
+	margin-top: 10px;
+}
+
+.social-icons {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	margin: 10px 20px;
+}
+
+.soci {
+	text-decoration: none;
+	color: #4B5563;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+i {
+	font-size: 30px;
+	transition: 1s;
+
+}
+
+.soci:hover {
+	color: #1D4ED8;
+	transform: scale(1.3);
+	
+}
+
+.para{
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+.badd{
+	color: #2563EB;
+}
+
+.badd:hover {
+	color: black;
+	transform: scale(4px);
+}
